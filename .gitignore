@@ -1,0 +1,50 @@
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+xcuserdata
+
+node_modules/
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+*~
+
+# Fastlane
+fastlane/report.xml
+
+# other shit
+.idea
+output/*
+iOSInjectionProject
+
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+Pods/
+Carthage/Build/
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+iOSInjectionProject/
+
+# Ignore Developer-local config
+Developer.xcconfig
+
+# vscode
+.vscode/*
